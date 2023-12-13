@@ -1,0 +1,89 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#lupa {
+    color: gray;
+}
+
+.icono {
+    width: 30px;
+    height: 30px;
+}
+
+.icono img {
+    border-radius: 50%;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header ul li {
+    margin: 10px;
+}
+
+main {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cajabuscador {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+    min-height: 44px;
+    max-width: 584px;
+    width: 538px;
+    border-radius: 5px;
+}
+
+#cajabuscador input {
+    width: 400px;
+    outline: none;
+    border: none;
+}
+
+#cajabuscador .icono {
+    margin: 5px;
+}
+
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #dfe1e5;
+    height: 36px;
+    min-width: 54px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+footer ul li {
+    margin: 10px;
+}
+
+#opciones {
+    display: flex;
+}
+
+#google-logo {
+    max-width: 25%;
+    height: auto;
+}
+
+header a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
